@@ -64,13 +64,6 @@ Get inputs and outputs for encoders and decoders.
 ### Step 3: 
 perform or operation for encoder and and logic for decoders.
 
-### PROGRAM 
-/*
-Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: S.PRADEEP
-RegisterNumber: 212222100034 
-*/
-
 ### Step 4: 
 perform RTL LOGIC and get waveform.
 
@@ -82,8 +75,8 @@ End the module.
 ### PROGRAM 
 ```
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by:GOKUL J 
-RegisterNumber:212222230038 
+Developed by:S.PRADEEP 
+RegisterNumber:212222100034
 ```
 ### Encoder:
 ```
