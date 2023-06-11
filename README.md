@@ -80,12 +80,12 @@ RegisterNumber:212222100034
 ```
 ### Encoder:
 ```
-module encoder (d0,d1,d2,d3,d4,d5,d6,d7,x,y,z);
-input d0,d1,d2,d3,d4,d5,d6,d7;
-output x,y,z;
-or (x,d4,d5,d6,d7);
-or (y,d2,d3,d5,d7);
-or (z,d1,d3,d5,d7);
+module encoder(a0,a1,a2,y0,y1,y2,y3,y4,y5,y6,y7);
+input y0,y1,y2,y3,y4,y5,y6,y7;
+output a0,a1,a2;
+or(a0,y7,y5,y3,y1);
+or(a1,y7,y6,y3,y2);
+or(a2,y7,y6,y5,y4);
 endmodule
 ```
 
@@ -111,10 +111,8 @@ endmodule
 
 ### RTL LOGIC  
 ### Encoder:
-![Screenshot 2023-05-14 233135](https://github.com/Gokul0117/Experiment-08-Encoders-and-decoders-/assets/121165938/4ea06922-da7c-499e-a13d-26852ed340f7)
 
-
-
+![rtl](https://github.com/pradeepsiva20/Experiment-08-Encoders-and-decoders-/assets/120539823/f667279a-c4b2-40d1-bc0f-53eba1ba2302)
 
 
 
@@ -124,7 +122,8 @@ endmodule
 
 ### TIMING DIGRAMS  
 ### Encoder:
-![Screenshot 2023-05-14 233429](https://github.com/Gokul0117/Experiment-08-Encoders-and-decoders-/assets/121165938/bfa453b2-109a-4e6c-b948-b9cff99d9aea)
+
+![timing diagram](https://github.com/pradeepsiva20/Experiment-08-Encoders-and-decoders-/assets/120539823/9dd81c88-d0f0-443a-a192-2a6573df8517)
 
 
 
@@ -134,7 +133,9 @@ endmodule
 
 ### TRUTH TABLE 
 ### Encoder:
-![Screenshot 2023-05-14 234049](https://github.com/Gokul0117/Experiment-08-Encoders-and-decoders-/assets/121165938/23381e88-0ae5-459c-9b2f-e569e3aa7824)
+
+![truth table](https://github.com/pradeepsiva20/Experiment-08-Encoders-and-decoders-/assets/120539823/4e4a2792-6ba7-4a5f-96fa-c0fa45375ccd)
+
 ### Decoder:
 ![Screenshot 2023-05-14 234147](https://github.com/Gokul0117/Experiment-08-Encoders-and-decoders-/assets/121165938/73bcd837-1c0c-4eb6-9347-b4f328cfe68d)
 
